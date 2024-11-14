@@ -1,0 +1,547 @@
+/*            Navigation          */
+
+.navcontent {
+  /* border: solid red; */
+  height: 15vh;
+  padding: 5px;
+}
+.navitems {
+  /* border: solid blue; */
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  /* border: solid black; */
+  height: 10vh;
+  width: 12%;
+  margin-bottom: 15px;
+
+  background-color: white;
+}
+.logoimg {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin-bottom: 52px;
+}
+.search_area {
+  /* border: solid black; */
+  height: 5vh;
+  width: 50%;
+  margin: 5px;
+}
+#search_area {
+  height: 3vh;
+  width: 80%;
+  margin: 2px;
+  padding: 6px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+.user_cart {
+  /* border: solid black; */
+  height: 5vh;
+  width: 20%;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.search_button {
+  padding: 7px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.search_button:hover {
+  background-color: rgba(186, 162, 162, 0.662);
+  cursor: pointer;
+}
+.user {
+  /* border: solid rgb(208, 0, 255); */
+  height: auto;
+  width: 30%;
+  margin-left: 80px;
+}
+.cart {
+  /* border: solid rgba(0, 21, 255, 0.574); */
+  height: auto;
+  width: 25%;
+}
+.userlogin {
+  width: 70%;
+  height: 100%;
+}
+.cartimg {
+  width: 100%;
+  height: 100%;
+}
+.navlist {
+  /* border: solid peru; */
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+}
+.listcontent {
+  /* border: solid gray; */
+  padding: 5px;
+  margin-top: 10px;
+  height: fit-content;
+  width: 8%;
+  border-radius: 18px;
+  text-align: center;
+}
+.listcontent:hover {
+  background-color: rgba(186, 162, 162, 0.662);
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+/*                Info and display          */
+.display {
+  border: solid white;
+  height: 70vh;
+  background-image: url(https://images.unsplash.com/photo-1611299106168-277a21fad977?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.displaycontainer {
+  /* border: solid mediumseagreen; */
+  height: 60%;
+  width: 50%;
+  margin: 10px;
+  margin-top: 20%;
+}
+.displayinfo {
+  /* border: solid mediumseagreen; */
+  height: 25vh;
+  margin: 10px;
+}
+h2 {
+  /* border: solid blue; */
+  font-size: 40px;
+  color: white;
+}
+p {
+  /* border: solid blue; */
+  margin-bottom: 30%;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+.shopbtn {
+  /* border: solid blue; */
+  margin-top: -25%;
+  height: 4vh;
+  width: 40%;
+}
+.shopnow {
+  padding: 10px;
+  margin-left: 20%;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.shopnow:hover {
+  background-color: rgba(237, 218, 218, 0.409);
+}
+/*                      BRANDS                        */
+.brands {
+  /* border: solid greenyellow; */
+  padding: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.brandlogo {
+  /* border: solid blue; */
+  height: 12vh;
+  display: flex;
+}
+.ugg {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.uggimg {
+  width: 100%;
+  height: 100%;
+}
+.jordan {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.jordanimg {
+  width: 100%;
+  height: 100%;
+}
+.nike {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.nikeimg {
+  width: 100%;
+  height: 100%;
+}
+.newbalance {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.newbimg {
+  width: 100%;
+  height: 100%;
+}
+.adidas {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.adidaslogo {
+  width: 100%;
+  height: 100%;
+}
+.timberland {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.timberlandlogo {
+  width: 100%;
+  height: 100%;
+}
+.asics {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+.asicslogo {
+  width: 100%;
+  height: 100%;
+}
+.vans {
+  /* border: solid blue; */
+  height: 10vh;
+  padding: 10px;
+  width: 10%;
+}
+
+.vanslogo {
+  width: 100%;
+  height: 100%;
+}
+
+/*                             Categories                                   */
+
+.categories {
+  /* border: solid blue; */
+  height: 100vh;
+  margin-top: 20px;
+  background-color: hsla(0, 16%, 89%, 0.83);
+}
+.headingcat {
+  /* border: solid blue; */
+  height: 10vh;
+}
+.hdtext {
+  color: black;
+  text-align: center;
+}
+.first3 {
+  /* border: solid blue; */
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+.women {
+  /* border: solid blue; */
+  height: 34vh;
+  width: 28%;
+  margin: 10px;
+}
+.womenimg {
+  width: 100%;
+  height: 100%;
+}
+.men {
+  /* border: solid blue; */
+  height: 34vh;
+  width: 28%;
+  margin: 5px;
+}
+.menimg {
+  width: 100%;
+  height: 100%;
+}
+.kids {
+  /* border: solid blue; */
+  height: 34vh;
+  width: 28%;
+  margin: 5px;
+}
+.kidsimg {
+  width: 100%;
+  height: 100%;
+}
+.imgdescription {
+  /* border: solid blue; */
+  padding: 8px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  width: 94.5%;
+  margin-top: -4px;
+}
+.second3 {
+  /* border: solid blue; */
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+.running {
+  /* border: solid blue; */
+  height: 34vh;
+  width: 28%;
+  margin: 6px;
+}
+.runningimg {
+  width: 100%;
+  height: 100%;
+}
+.basketball {
+  /* border: solid blue; */
+  height: 34vh;
+  width: 28%;
+  margin: 5px;
+}
+.basketballimg {
+  width: 100%;
+  height: 100%;
+}
+.shopall {
+  /* border: solid blue; */
+  height: 34vh;
+  width: 28%;
+  margin: 5px;
+}
+.shopallimg {
+  width: 100%;
+  height: 100%;
+}
+/*                                     NEW ARRIVALS                          */
+
+.newarrivals {
+  /* border: solid green; */
+  height: 55vh;
+  margin-top: 15px;
+}
+.nadescription {
+  /* border: solid green; */
+  height: 5vh;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -4px;
+}
+.arrcontainer {
+  /* border: solid green; */
+  height: 47vh;
+  display: flex;
+  justify-content: space-between;
+}
+.productcontainer {
+  /* border: solid green; */
+  height: 45vh;
+  width: 25%;
+  margin: 5px;
+  border-radius: 10px;
+}
+.imgcontainer {
+  /* border: solid green; */
+  height: 55%;
+}
+.pricetag {
+  border: solid rgb(249, 246, 246);
+  height: 42%;
+}
+.piccontainer {
+  width: 100%;
+  height: 100%;
+}
+.pricetag {
+  color: rgb(158, 130, 130);
+  font-weight: 400;
+  line-height: 15px;
+}
+h5 {
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 9px;
+}
+.price {
+  color: black;
+  margin-left: 12px;
+}
+
+/*                            Winter Accessories                        */
+.winter {
+  border: solid green;
+  height: 47vh;
+  margin-top: 15px;
+}
+.imgwinter {
+  width: 100%;
+  height: 100%;
+}
+
+/*                                    Clothing                                */
+.clothing {
+  /* border: solid blue; */
+  height: 55vh;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.clothsets {
+  /* border: solid green; */
+  height: 55vh;
+  width: 50%;
+  margin: 5px;
+}
+.clothsets1 {
+  /* border: solid green; */
+  height: 55vh;
+  width: 50%;
+  margin: 5px;
+}
+.imgclothsets1 {
+  width: 100%;
+  height: 100%;
+}
+.imgclothsets {
+  width: 100%;
+  height: 100%;
+}
+.imgtxt {
+  /* border: solid purple; */
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  /* border: solid red; */
+  height: 3vh;
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 5px;
+  font-size: 20px;
+}
+#text {
+  color: black;
+}
+
+/*                Info details              */
+.info{
+  /* border: solid peru; */
+  height: 19vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.detail{
+  border: solid white;
+  height: 15vh;
+  width: 100%;
+  margin: 8px;
+  text-indent: 5px;
+  background-color: hsla(0, 100%, 99%, 0.857);
+}
+/*                             Footer                                */
+.footer{
+  /* border: solid blue; */
+  height: 57vh;
+  margin-top: 20px;
+  background-color: rgba(238, 223, 223, 0.872);
+  
+}
+.footerbox1{
+  /* border: solid blue; */
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+}
+.footerbox{
+  /* border: solid blue; */
+  height: 30vh;
+  width: 14%;
+  margin: 5px;
+  line-height: 23px;
+}
+.footercont{
+  /* border: solid blue; */
+  height: 30vh;
+  width: 30%;
+  margin: 5px;
+}
+.boxmess{
+  border: solid white;
+  height: 20vh;
+  width: 70%;
+  margin:5px 12px 2px;
+  margin-top: 20%;
+  background-color: whitesmoke;
+}
+.writing{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.writing:hover{
+  text-decoration: underline;
+}
+.feedback{
+  color: black;
+}
+.cards{
+  /* border: solid blue; */
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  
+}
+.card{
+  /* border: solid blue; */
+  height: 4vh;
+  width: 7%;
+  margin:px ;
+}
+.imgcard{
+  height: 100%;
+  width: 100%;
+ background-color: transparent;
+}
+.terms{
+  /* border: solid blue; */
+  height: 12vh;
+  text-align: center;
+  line-height: 30px;
+}
